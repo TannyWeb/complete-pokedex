@@ -1,0 +1,15 @@
+footer {
+	margin-top: 2em;
+
+	@media screen and (min-width: 800px) {
+		grid-column: 2 / 3;
+	}
+
+	.social-links {
+		.social-link {
+			&:hover {
+				opacity: .5;
+			}
+		}
+	}
+}
