@@ -1,21 +1,11 @@
-*,
-*::before,
-*::after {
+* {
 	box-sizing: border-box;
-}
-
-img {
-	max-width: 100%;
+	margin: 0;
+	padding: 0rem;
 }
 
 body {
-	margin: 1em;
-	background-color: $clr-bg-dark;
-	color: $clr-text;
-	line-height: 1.5;
+	display: flex;
 	font-family: sans-serif;
-
-	@media screen and (min-width: 800px) {
-		margin: 0;
-	}
+	justify-content: center;
 }
